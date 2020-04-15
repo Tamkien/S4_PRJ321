@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Table - Pandemic Manager</title>
+    <meta name="description" content="Assignment PRJ321">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                        <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                            <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"></form><a class="btn btn-primary active" role="button" href="search.html">Tra Cứu</a><span>&nbsp; &nbsp;&nbsp;</span><a class="btn btn-primary active" role="button" href="add.html">Nhập dữ liệu</a><span>&nbsp; &nbsp;&nbsp;</span>
+                            <a
+                                class="btn btn-primary active" role="button" href="logout">Đăng xuất</a>
+                        </div>
+                    </nav>
+                    <div class="card shadow">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold">Tra cứu thông tin</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
+                                <table class="table dataTable my-0" id="dataTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Họ và tên</th>
+                                            <th>Hộ khẩu</th>
+                                            <th>Số CMTND</th>
+                                            <th>Nơi ở</th>
+                                            <th class="text-truncate">Ngày Sinh</th>
+                                            <th class="text-truncate">Tình trạng sức khỏe</th>
+                                            <th>Sửa/xóa thông tin</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="individual.html">Cao Tam Kiên</a></td>
+                                            <td class="text-left"><a href="family.html">111111</a></td>
+                                            <td class="text-truncate">082316947</td>
+                                            <td>Vân Đình</td>
+                                            <td class="text-truncate">25/11/2000</td>
+                                            <td class="text-center alert alert-success">Bình thường</td>
+                                            <td class="text-center">
+                                                <div class="btn-toolbar">
+                                                    <div class="btn-group" role="group"><a class="btn btn-primary text-center" role="button" href="edit-individual.html">Sửa</a><a class="btn btn-primary" role="button" href="delete">Xóa</a></div>
+                                                    <div class="btn-group" role="group"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr></tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright ©Tamkien Cao 2020</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
